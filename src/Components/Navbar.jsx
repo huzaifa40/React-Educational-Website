@@ -1,0 +1,32 @@
+import React, { useEffect, useState } from 'react'
+import logo from '../Assets/logo.png'
+import { Link } from 'react-scroll'
+
+const Navbar = () => {
+  const [sticky, setSticky] = useState(false)
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      window.scrollY > 50 ? setSticky(true) : setSticky(false)
+    })
+
+  }, [])
+
+  return (
+    <nav className={`text-white p-4 flex justify-between items-center px-32 fixed w-full z-10 ${sticky? 'bg-blue-900' : ''}`}>
+        <img src={logo} className='h-10' alt="Logo" /> 
+        <ul className="flex gap-12 items-center">
+            <li className='text-lg font-semibold cursor-pointer'><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
+            <li className='text-lg font-semibold cursor-pointer'><Link to='program' smooth={true} offset={-280} duration={500}>Program</Link></li>
+            <li className='text-lg font-semibold cursor-pointer'><Link to='about' smooth={true} offset={-180} duration={500}>About us</Link></li>
+            <li className='text-lg font-semibold cursor-pointer'><Link to='campus' smooth={true} offset={-130} duration={500}>Campus</Link></li>
+            <li className='text-lg font-semibold cursor-pointer'><Link to='testimonial' smooth={true} offset={-310} duration={500}>Testimonials</Link></li>
+            <li>
+                <button className="bg-white text-black rounded-full py-3 px-7 cursor-pointer"><Link to='contact' smooth={true} offset={-280} duration={500}>Contact us</Link></button>
+            </li>
+        </ul>     
+  </nav>
+  )
+}
+
+export default Navbar
