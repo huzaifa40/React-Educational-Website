@@ -1,8 +1,8 @@
 .hero {
-    background: url('../Assets/hero.png');
+    background: url('../../public/bg.avif');
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
 }
 

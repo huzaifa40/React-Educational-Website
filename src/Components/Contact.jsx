@@ -49,7 +49,7 @@ const Contact = () => {
                         <label className='font-[400] text-gray-700 text-[17px]'>Write your message here</label>
                         <textarea className='bg-gray-100 px-5 py-3 rounded-lg w-[390px]' name='message' rows='5' placeholder='Enter your message' required/>
                     </div>     
-                    <button className='flex gap-3 bg-blue-950 items-center text-white rounded-3xl w-[185px] py-3 px-6 text-[18px] font-[480] my-6'>Submit Now <img src={arrow} className='w-[25px] h-[15px]' alt="" /></button>          
+                    <button className='flex gap-3 bg-black items-center text-white rounded-3xl w-[185px] py-3 px-6 text-[18px] font-[480] my-6'>Submit Now <img src={arrow} className='w-[25px] h-[15px]' alt="" /></button>          
                 </form>
             </div>      
         </div>

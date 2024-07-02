@@ -27,17 +27,17 @@ const Testimonials = () => {
 
   return (
     <div className='testimonial relative my-28 mx-40 px-20'>
-        <img src={back_icon} className='p-3 w-[45px] h-[44px] bg-blue-950 rounded-full absolute left-0 top-[50%] transform translate-y-[-50%]' alt="" onClick={slideBckward} />
-        <img src={next_icon} className='p-3 w-[45px] h-[44px] bg-blue-950 rounded-full absolute right-0 top-[50%] transform translate-y-[-50%]' alt="" onClick={slideForward} />
+        <img src={back_icon} className='p-3 w-[45px] h-[44px] bg-black rounded-full absolute left-0 top-[50%] transform translate-y-[-50%]' alt="" onClick={slideBckward} />
+        <img src={next_icon} className='p-3 w-[45px] h-[44px] bg-black rounded-full absolute right-0 top-[50%] transform translate-y-[-50%]' alt="" onClick={slideForward} />
         <div className='slider overflow-hidden'>
             <ul className='flex gap-6 overflow-x-hidden w-[200%] transition duration-700 ease-in-out' ref={slider}>
                 <li className=''>
-                    <div className='slide bg-gray-100 py-12 px-8 rounded-xl '>
+                    <div className='slide bg-gray-100 py-12 px-8 rounded-xl'>
                         <div className='user_info flex gap-3 items-center mb-3'>
-                            <img src={user_1} className='rounded-full w-[70px] border-[4px] border-blue-950' alt="" />
+                            <img src={user_1} className='rounded-full w-[70px] border-[4px] border-black' alt="" />
                             <div>
-                                <p className='font-[700] text-[20px] text-blue-950'>Emily Williams</p>
-                                <p className='text-left text-gray-500 text-[17px] font-[600]'>Edusity, USA</p>
+                                <p className='font-[700] text-[20px] text-black'>Ayesha Ali Khan</p>
+                                <p className='text-left text-gray-500 text-[17px] font-[600]'>Educato, Pakistan</p>
                             </div>
                         </div>
                         <p className='text-left text-gray-500 text-[17px] font-[600]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -50,10 +50,10 @@ const Testimonials = () => {
                 <li>
                     <div className='slide bg-gray-100 py-12 px-8 rounded-xl '>
                         <div className='user_info flex gap-3 items-center mb-3'>
-                            <img src={user_2} className='rounded-full w-[70px] border-[4px] border-blue-950' alt="" />
+                            <img src={user_2} className='rounded-full w-[70px] border-[4px] border-black' alt="" />
                             <div>
-                                <p className='font-[700] text-[20px] text-blue-950'>William Jackson</p>
-                                <p className='text-left text-gray-500 text-[17px] font-[600]'>Edusity, USA</p>
+                                <p className='font-[700] text-[20px] text-black'>Ali Jackson</p>
+                                <p className='text-left text-gray-500 text-[17px] font-[600]'>Educato, India</p>
                             </div>                            
                         </div>
                         <p className='text-left text-gray-500 text-[17px] font-[600]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -66,10 +66,10 @@ const Testimonials = () => {
                 <li>
                     <div className='slide bg-gray-100 py-12 px-8 rounded-xl '>
                         <div className='user_info flex gap-3 items-center mb-3'>
-                            <img src={user_3} className='rounded-full w-[70px] border-[4px] border-blue-950' alt="" />
+                            <img src={user_3} className='rounded-full w-[70px] border-[4px] border-black' alt="" />
                             <div>
-                                <p className='font-[700] text-[20px] text-blue-950'>William Jackson</p>
-                                <p className='text-left text-gray-500 text-[17px] font-[600]'>Edusity, USA</p>
+                                <p className='font-[700] text-[20px] text-black'>Muskan Khan</p>
+                                <p className='text-left text-gray-500 text-[17px] font-[600]'>Educato, Canada</p>
                             </div>
                         </div>
                         <p className='text-left text-gray-500 text-[17px] font-[600]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -82,10 +82,10 @@ const Testimonials = () => {
                 <li>
                     <div className='slide bg-gray-100 py-12 px-8 rounded-xl '>
                         <div className='user_info flex gap-3 items-center mb-3'>
-                            <img src={user_4} className='rounded-full w-[70px] border-[4px] border-blue-950' alt="" />
+                            <img src={user_4} className='rounded-full w-[70px] border-[4px] border-black' alt="" />
                             <div>
-                                <p className='font-[700] text-[20px] text-blue-950'>William Jackson</p>
-                                <p className='text-left text-gray-500 text-[17px] font-[600]'>Edusity, USA</p>
+                                <p className='font-[700] text-[20px] text-black'>Usama Riaz</p>
+                                <p className='text-left text-gray-500 text-[17px] font-[600]'>Educato, USA</p>
                             </div>
                         </div>
                         <p className='text-left text-gray-500 text-[17px] font-[600]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
